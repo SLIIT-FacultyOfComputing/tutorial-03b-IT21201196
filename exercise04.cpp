@@ -6,7 +6,7 @@ void input(int len, int wth);
 
 // Do not change the main() function
 int main() {
-   int length = 10, width = 5;
+  // int length = 10, width = 5;
    input(length, width);
    print(length, width);
    return 0;
@@ -16,6 +16,15 @@ int main() {
 void print(int len, int wth) {
    cout << "Length : " << len 
         << ", Width  : " << wth << endl;
+}
+void input(int& len,int& wth){
+  int l,w;
+  cout<<"length:";
+  cin>>len;
+  cout<<"width:";
+  cin>>wth;
+  
+ 
 }
 
 // Implement the Input Function here
